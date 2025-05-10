@@ -12,7 +12,7 @@ describe('throttledGetDataFromApi', () => {
   beforeEach(() => {
     mockedGet = jest.fn((relativePath) =>
       Promise.resolve({
-        data: `Recived from ${relativePath}`,
+        data: `Received from ${relativePath}`,
       }),
     );
 
